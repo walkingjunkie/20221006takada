@@ -15,7 +15,7 @@ body{
   font-size: 40px;
   color: #fff;
   text-align: center;
-  padding: 200px 0;
+  padding: 160px 0;
 }
 
 .about_main{
@@ -68,6 +68,7 @@ padding-bottom: 45px;
 .contact_main{
   width: 780px;
   margin: 70px auto 0 auto;
+  
 }
 
 .contact_title{
@@ -75,15 +76,61 @@ padding-bottom: 45px;
   text-align: center;
   padding-bottom: 50px;
 }
+.contact-form{
+display: flex;
+justify-content: center;
 
-.name,.email,.requirements,.content{
-  text-align: right;
 }
 
-input{
-  width: 400px;
+form{
+  width:780px;
+}
+
+.item{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+label{
+  float:left;
+  margin-right: 20px;
+  width:230px;
+  padding-left: 0%;
+}
+
+.inputs{
+  float: left;
+  width:520px;
+}
+
+.inputs[type="text"]
+.inputs[type="email"]{
+  border: solid 1px #aaa;
+  padding:10px;
 }
 textarea{
-  text-align: right;
-  width: 400px;
+  border:1px solid #aaa;
+  padding:10px;
+  height: 180px;
+  width: 500px;
+}
+
+.button{
+text-align: center;
+}
+
+.button1{
+  width:200px;
+  padding: 10px 40px;
+  margin-right: 10px;
+  background-color: #d3d3d3;
+  border: none;
+}
+.button2 {
+  width: 200px;
+  padding: 10px 40px;
+  margin-left: 10px;
+  background-color:#20b2aa ;
+  color: #fff;
+  border: none;
 }
