@@ -2,3 +2,88 @@
   margin:0;
   padding:0;
 }
+body{
+  width:1000px;
+}
+.header{
+  height: 400px;
+  background: url(../img/firstview.jpg) center / auto;
+  background-position: left top;
+  background-size: 100%;
+  }
+.header_title{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.about_main{
+  width: 100%;
+  margin-top:20px;
+}
+
+.about_title{
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+}
+.about_text{
+  text-align: center;
+  margin:auto 100px;
+  line-height: 1.5;
+}
+span{
+  font-weight: bold;
+}
+
+.blog_main{
+  margin-top: 70px;
+}
+
+.blog_main-title{
+font-size: 30px;
+text-align: center;
+padding-bottom: 45px;
+}
+
+.image-group{
+  display: flex;justify-content: space-between;
+  padding:0 22px;
+}
+
+
+.blog_img{
+  margin: 0 15px;
+}
+.blog_img img{
+  width: 100%;
+  height: auto;
+  padding-bottom:15px ;
+}
+.blog_title{
+  font-weight: bold;
+}
+
+.contact_main{
+  width: 780px;
+  margin: 70px auto 0 auto;
+}
+
+.contact_title{
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.name,.email,.requirements,.content{
+  text-align: right;
+}
+
+input{
+  width: 400px;
+}
+textarea{
+  text-align: right;
+  width: 400px;
+}
